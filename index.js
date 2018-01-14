@@ -16,7 +16,7 @@ function destructivelyRemoveLastKitten(name){
 }
 kittens = ['Milo', 'Otis', 'Garfield']
 function destructivelyRemoveFirstKitten(name){
-  kittens.push(name)
+  kittens.shift(name)
   return kittens
 }
 kittens = ['Milo', 'Otis', 'Garfield']

@@ -21,9 +21,9 @@ function destructivelyRemoveFirstKitten(name){
 }
 kittens = ['Milo', 'Otis', 'Garfield']
 function appendKitten(name){
-  return kittens[...kittens, name]
+  return [...kittens, name]
 }
 kittens = ['Milo', 'Otis', 'Garfield']
 function prependKitten(name){
-  return kittens[name,...kittens]
+  return [name,...kittens]
 }
